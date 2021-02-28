@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 22px;
+  color: darkslateblue;
+}
+.button {
+  display: inline;
+  margin: 20px 10px 5px 5px;
+}
+.button button {
+  width: auto;
+  height: 30px;
+  width: fit-content;
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.stopwatch {
+  width: 300px;
+  height: auto;
+  padding: 20px 10px 10px 10px;
+  border: 2px solid lightgrey;
+  background-color: rgba(103, 176, 236, 0.781);
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.display span {
+  display: inline-block;
+  width: 30px;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border: 1px solid lightgrey;
+}
